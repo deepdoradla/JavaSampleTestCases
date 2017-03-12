@@ -11,7 +11,7 @@ public class RunTest {
 
     public static void main(String[] args){
 
-        Result result = JUnitCore.runClasses(SampleTest.class);
+        Result result = JUnitCore.runClasses(TestSuiteTest.class);
         for(Failure failure : result.getFailures()){
             System.out.println("Failure in testcase" + failure.toString());
         }

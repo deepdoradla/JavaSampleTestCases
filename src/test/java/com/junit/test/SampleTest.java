@@ -14,7 +14,7 @@ public class SampleTest {
     public void testString(){
         String myString = "Hello this is my string!";
 
-        Assert.assertEquals("Hello this is my string", myString);
+        Assert.assertEquals("Hello this is my string!", myString);
     }
 
 }
